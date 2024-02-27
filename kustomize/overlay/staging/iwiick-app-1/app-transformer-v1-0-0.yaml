@@ -8,7 +8,7 @@ metadata:
         path: skyu-app-transformer
 spec:
   applicationContainers:
-    - imageTag: 4206462881e407e44b144ca658b4a8ed850be374
+    - imageTag: latest
       cpuRequestMili: 100
       cpuLimitMili: 150
       memoryRequestMb: 350
@@ -21,15 +21,7 @@ spec:
       name: iwiick-app-1-main
       imagePullPolicy: Always
       imageRegistry: 272133924862.dkr.ecr.us-east-1.amazonaws.com/iwiick
-      credentialId: credential_e8ebf576-6f8a-46c4-9b35-8fd5c2ac8670
-      commitDetails:
-        commitHash: 4206462881e407e44b144ca658b4a8ed850be374
-        commitAvatar: https://github.com/skyu-v2-dev[bot].png
-        commitTime: '2024-02-27T08:57:05Z'
-        commitMessage: >-
-          container-dev_env_a09e171c-164a-499c-b3d5-dfd4b22de33b_app_dbd80107-4448-4391-8701-f180fcd4ec54.yaml
-          workflow file created'
-        commitUser: skyu-v2-dev[bot]
+      credentialId: credential_fb731b34-238e-4dfb-970d-b42e8f3d9a6b
   minReplicas: 1
   maxReplicas: 1
   terminationGracePeriodSeconds: 60
@@ -39,10 +31,10 @@ spec:
   labels:
     app: iwiick-app-1
     version: v1.0.0
-    applicationId: app_dbd80107-4448-4391-8701-f180fcd4ec54
-    projectId: project_fbe74a32-641f-4196-8fd5-39927e71fa5c
+    applicationId: app_3da30b8d-8704-4f98-ba59-39cbde5b0784
+    projectId: project_d858d780-1e39-47ce-aa40-057e703a5f92
     organizationId: org_66955b30-1a63-4c92-bd87-67a900920d99
-    environmentId: env_a09e171c-164a-499c-b3d5-dfd4b22de33b
+    environmentId: env_29d628d0-ba2f-4d92-bb91-93a0d34710da
     environmentName: staging
   horizontalAutoScalingRules: []
   volumes: []
@@ -50,4 +42,4 @@ spec:
   name: iwiick-app-1
   serviceType: ClusterIP
   version: v1.0.0
-  namespace: iwiick-proj-1-staging
+  namespace: iwiick-proj-2-staging
