@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: iwiick-proj-2-staging
+  labels:
+    environmentId: env_29d628d0-ba2f-4d92-bb91-93a0d34710da
+    projectId: project_d858d780-1e39-47ce-aa40-057e703a5f92
+    projectName: iwiick-proj-2
+    environmentName: staging
+    organizationId: org_66955b30-1a63-4c92-bd87-67a900920d99
