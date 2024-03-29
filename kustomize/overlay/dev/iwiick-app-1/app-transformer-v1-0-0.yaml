@@ -8,7 +8,7 @@ metadata:
         path: skyu-app-transformer
 spec:
   applicationContainers:
-    - imageTag: 66f2acf83c441c2852b0469a37d6345b39265b9e
+    - imageTag: ab8e147f309c7416d1246ce1f1eebed41ed96c66
       cpuRequestMili: 100
       cpuLimitMili: 150
       memoryRequestMb: 350
@@ -23,10 +23,10 @@ spec:
       imageRegistry: 272133924862.dkr.ecr.us-east-1.amazonaws.com/iwiick
       credentialId: credential_fb731b34-238e-4dfb-970d-b42e8f3d9a6b
       commitDetails:
-        commitHash: 66f2acf83c441c2852b0469a37d6345b39265b9e
+        commitHash: ab8e147f309c7416d1246ce1f1eebed41ed96c66
         commitAvatar: https://github.com/skyu-v2-dev[bot].png
-        commitTime: '2024-03-27T12:32:33Z'
-        commitMessage: Skyu container Template Workflows Created
+        commitTime: '2024-03-29T10:14:30Z'
+        commitMessage: SkyU container Template Workflows Created
         commitUser: skyu-v2-dev[bot]
   minReplicas: 1
   maxReplicas: 1
