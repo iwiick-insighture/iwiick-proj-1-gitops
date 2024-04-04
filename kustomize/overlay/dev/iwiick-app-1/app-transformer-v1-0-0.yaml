@@ -8,7 +8,7 @@ metadata:
         path: skyu-app-transformer
 spec:
   applicationContainers:
-    - imageTag: cf6e228533e81f2f7b9884f1535b2c4f830b7648
+    - imageTag: 6ca5a8077ca1d50cb6cd5816f73de5a25cbcd4bb
       cpuRequestMili: 100
       cpuLimitMili: 150
       memoryRequestMb: 350
@@ -23,11 +23,11 @@ spec:
       imageRegistry: 272133924862.dkr.ecr.us-east-1.amazonaws.com/iwiick
       credentialId: credential_fb731b34-238e-4dfb-970d-b42e8f3d9a6b
       commitDetails:
-        commitHash: cf6e228533e81f2f7b9884f1535b2c4f830b7648
-        commitAvatar: https://github.com/skyu-v2-dev[bot].png
-        commitTime: '2024-04-04T09:58:31Z'
-        commitMessage: container-dev_app_3da30b8_env_c6bda5f.yaml workflow file created'
-        commitUser: skyu-v2-dev[bot]
+        commitHash: 6ca5a8077ca1d50cb6cd5816f73de5a25cbcd4bb
+        commitAvatar: https://github.com/iwiick.png
+        commitTime: 2024-04-04T15:33:51 05:30
+        commitMessage: Update container-dev_app_3da30b8_env_c6bda5f.yaml
+        commitUser: iwiick
   minReplicas: 1
   maxReplicas: 1
   terminationGracePeriodSeconds: 60
