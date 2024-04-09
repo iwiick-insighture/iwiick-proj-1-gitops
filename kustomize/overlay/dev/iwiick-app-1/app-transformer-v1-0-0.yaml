@@ -8,7 +8,7 @@ metadata:
         path: skyu-app-transformer
 spec:
   applicationContainers:
-    - imageTag: abf035f06fcaee9eb44505949b8afd8a6a168286
+    - imageTag: a8e67a2293ea06e88bb4b4701df74afa66b02fa8
       cpuRequestMili: 100
       cpuLimitMili: 150
       memoryRequestMb: 350
@@ -23,9 +23,9 @@ spec:
       imageRegistry: 272133924862.dkr.ecr.us-east-1.amazonaws.com/iwiick
       credentialId: credential_fb731b34-238e-4dfb-970d-b42e8f3d9a6b
       commitDetails:
-        commitHash: abf035f06fcaee9eb44505949b8afd8a6a168286
+        commitHash: a8e67a2293ea06e88bb4b4701df74afa66b02fa8
         commitAvatar: https://github.com/skyu-v2-dev[bot].png
-        commitTime: '2024-04-09T07:02:54Z'
+        commitTime: '2024-04-09T08:16:02Z'
         commitMessage: docker-lambda-dev_app_3da30b8_env_c6bda5f.yaml Created
         commitUser: skyu-v2-dev[bot]
   minReplicas: 1
